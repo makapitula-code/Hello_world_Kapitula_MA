@@ -1,0 +1,11 @@
+print("=== СОЗДАНИЕ РЕЦЕПТУРЫ ПИТАТЕЛЬНОЙ СРЕДЫ ===\n")
+medium_name = input("Введите название питательной среды: ")
+agar_concentration = input("Введите концентрацию агара (%): ")
+sterilization_temp = input("Введите температуру стерилизации (°C): ")
+with open("recipe.txt", "w", encoding="utf-8") as file:
+    file.write(medium_name.upper() + "\n")
+    file.write("=" * len(medium_name) + "\n\n")
+    file.write("ПАРАМЕТРЫ ПРИГОТОВЛЕНИЯ:\n")
+    file.write(f"• Концентрация агара: {agar_concentration} %\n")
+    file.write(f"• Температура стерилизации: {sterilization_temp} °C\n")
+print(f"\n Файл 'recipe.txt' успешно сформирован!")
