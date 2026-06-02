@@ -1,0 +1,6 @@
+  0B	.//images
+  0B	.//documents/past
+  0B	.//documents/future
+  0B	.//documents
+  0B	.//backups
+  0B	./
