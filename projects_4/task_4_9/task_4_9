@@ -1,0 +1,7 @@
+x = float(input("ВВЕДИТЕ ЧИСЛО X: "))
+y = float(input("ВВЕДИТЕ ЧИСЛО Y: "))
+if x > y:
+ max_value = x
+else:
+ max_value = y
+print(f"//МАКСИМАЛЬНОЕ ЧИСЛО\\: {max_value:.0f}")
